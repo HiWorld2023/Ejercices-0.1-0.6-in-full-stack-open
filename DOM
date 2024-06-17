@@ -1,0 +1,24 @@
+DOM:
+El Modelo de Objetos del Documento (DOM) es una interfaz de programación de aplicaciones (API) que permite la representación y modificación programática de páginas web. Se basa en la idea de representar los elementos HTML como un árbol, donde cada elemento es un nodo y tiene relaciones con otros nodos.
+
+Estructura del DOM:
+
+La estructura del DOM se asemeja a la estructura de un árbol HTML, donde el nodo raíz es el elemento <html>. Cada elemento HTML se convierte en un nodo en el DOM, y los nodos tienen relaciones entre sí como padre-hijo o hermanos.
+
+Acceso y manipulación del DOM:
+
+El DOM proporciona métodos y propiedades para acceder y manipular los nodos del árbol. El objeto document es el nodo raíz del DOM, y a partir de él se puede acceder a cualquier otro nodo utilizando diversas técnicas, como getElementById(), getElementsByTagName(), querySelector(), entre otras.
+
+Ejemplo de manipulación del DOM:
+
+El código JavaScript proporcionado en el resumen muestra cómo crear un nuevo elemento <li> y agregarlo a una lista existente en el DOM. Esto se logra utilizando los métodos createElement() y appendChild() del objeto document.
+
+Manipulación del DOM desde la consola:
+
+El objeto document también se puede acceder desde la consola del navegador, lo que permite manipular la página web de forma dinámica. El ejemplo proporcionado muestra cómo agregar un nuevo elemento <li> a una lista desde la consola del navegador.
+
+Consideraciones importantes:
+
+Los cambios realizados en el DOM mediante JavaScript son temporales y no se guardan permanentemente. Si se recarga la página, los cambios se perderán.
+Para guardar los cambios de forma permanente, es necesario enviar los datos al servidor y actualizar la base de datos correspondiente.
+El DOM es una herramienta poderosa para crear páginas web dinámicas e interactivas, pero requiere un conocimiento sólido de JavaScript y de la estructura del DOM.
